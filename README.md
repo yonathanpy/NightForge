@@ -1,13 +1,6 @@
-<p align="center">
-  <img src="https://img.icons8.com/ios-filled/500/000000/console.png" width="200" alt="NightForge Terminal Icon"/>
-</p>
 
-<p align="center">
-  <strong style="font-size:24px; color:#ff6b6b;">NightForge</strong>
-</p>
-<p align="center">
-  <em style="color:#cfcfcf;">SSH & FTP Honeypot – Security Research & Threat Intelligence</em>
-</p>
+<!-- Anvil (forging) -->
+<img src="https://img.icons8.com/ios-filled/500/000000/anvil.png" width="200"/>
 # NightForge
 
 NightForge is an advanced SSH/FTP honeypot written in Rust. It is designed for security research, threat intelligence, and training purposes. NightForge simulates interactive sessions, captures authentication attempts, logs commands, and provides a pseudo-filesystem environment for realistic attacker interaction.
