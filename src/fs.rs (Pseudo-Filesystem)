@@ -1,0 +1,26 @@
+use std::collections::HashMap;
+
+pub struct FileSystem {
+    files: HashMap<String, String>,
+}
+
+impl FileSystem {
+    pub fn new() -> Self {
+        let mut fs = HashMap::new();
+        fs.insert("file1.txt".to_string(), "Top Secret Data".to_string());
+        fs.insert("file2.log".to_string(), "System Logs Content".to_string());
+        FileSystem { files: fs }
+    }
+
+    pub fn list(&self) -> Vec<String> {
+        self.files.keys().cloned().collect()
+    }
+
+    pub fn get(&self, filename: &str) -> Option<String> {
+        self.files.get(filename).cloned()
+    }
+
+    pub fn put(&mut self, filename: &str, content: &str) {
+        self.files.insert(filename.to_string(), content.to_string());
+    }
+}
