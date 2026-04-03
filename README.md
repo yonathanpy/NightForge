@@ -8,6 +8,7 @@
 <p align="center">
   <em style="color:#cfcfcf;">SSH & FTP Honeypot – Security Research & Threat Intelligence</em>
 </p>
+
 # NightForge
 
 NightForge is an advanced SSH/FTP honeypot written in Rust. It is designed for security research, threat intelligence, and training purposes. NightForge simulates interactive sessions, captures authentication attempts, logs commands, and provides a pseudo-filesystem environment for realistic attacker interaction.
