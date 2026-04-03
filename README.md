@@ -176,12 +176,6 @@ NightForge can be extended with:
 
 ---
 
-## License
-
-MIT License — intended for authorized testing and research environments only.
-
----
-
 ## Disclaimer
 
 NightForge is strictly intended for controlled and authorized use. Deploying it outside authorized environments may violate local laws or regulations.
